@@ -10,6 +10,8 @@ nav {
   z-index: 99;
 }
 
+/*only shows on medium and small screens*/
+
 .nav__toggle-btn {
   display: none;
 }
@@ -45,7 +47,7 @@ nav {
 }
 
 .active-nav::after {
-  content: "";
+  content: '';
   display: block;
   width: 1.2rem;
   height: 1.2rem;
@@ -65,8 +67,8 @@ nav {
     cursor: pointer;
   }
 
-  .nav__toggle-bth svg {
-    color: var(--color-gray-100);
+  .nav__toggle-btn svg {
+    color: var(--color-gray-100)
   }
 
   .nav__links {
@@ -78,8 +80,7 @@ nav {
     perspective: 400px;
   }
 
-  .active-nav,
-  .active-nav::after {
+  .active-nav,.active-nav::after {
     display: none;
   }
 

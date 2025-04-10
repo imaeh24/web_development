@@ -2,7 +2,7 @@ import Mainheader from "../../components/Mainheader"
 import "./home.css"
 
 const Home = () =>{
-  return(
+  return (
     <>
       <Mainheader/>
     </>
