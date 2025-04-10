@@ -1,11 +1,7 @@
-import'./plans.css'
-
-
+import "./plans.css";
 
 const Plans = () => {
-    return (
-        <div>Plans</div>
-    )
-}
+  return <div>Plans</div>;
+};
 
-export default Plans
+export default Plans;
