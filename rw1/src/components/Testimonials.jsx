@@ -13,7 +13,7 @@ const Testimonials = () => {
         const prevTestimonialHandler = () => {
             setIndex(prev => prev - 1);
             if(index <= 0) {
-                setIndex(testimonials.length - 1)
+                setIndex(testimonials.length - 1);
         }
     }
 
@@ -21,7 +21,7 @@ const Testimonials = () => {
             setIndex(prev => prev + 1);
 
             if(index >= testimonials.length - 1) {
-                setIndex(0)
+                setIndex(0);
             }
         }
 
