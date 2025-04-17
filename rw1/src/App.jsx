@@ -23,7 +23,6 @@ const App = () => {
         <Route path='Trainers' element={<Trainers/>} />
         <Route path='*' element={<NotFound/>} />
        </Routes>
-       <Navbar/>
        <Footer/>
     </BrowserRouter>
   );
